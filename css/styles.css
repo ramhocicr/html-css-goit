@@ -1,0 +1,95 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* вторичный цвет фона #F5F4FA */
+/* белый цвет #FFF */
+/* основной цвет лого #000 */
+/* акцент #2196F3 */
+/* полупрозрачный цвет для контактов rgba(255, 255, 255, 0.60) */
+
+p {
+  color: #757575;
+}
+
+.body {
+  color: #212121;
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+.section-title {
+  color: #212121;
+}
+
+/* LOGO */
+
+.logo {
+  color: #000;
+}
+
+/* CONTACTS */
+
+.contacts > li > a {
+  color: #757575;
+}
+
+.contacts > li > a:hover,
+.contacts > li > a:focus {
+  color: #2196f3;
+}
+
+.contacts .contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress {
+  color: #fff;
+}
+
+/* SITE-NAV */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+/* HERO */
+
+.hero-title {
+  color: #fff;
+}
+
+.button-hero {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+/* BENEFITS */
+
+.benefits-list-title {
+  color: #212121;
+}
+
+/* WORK LIST */
+
+/* OUR TEAM */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #2f303a;
+}
